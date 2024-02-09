@@ -1,0 +1,17 @@
+{
+  "name": "biome-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "biome format src --write",
+    "lint": "biome lint src",
+    "check": "biome check --apply src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3"
+  }
+}
